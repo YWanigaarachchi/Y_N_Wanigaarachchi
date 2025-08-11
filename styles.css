@@ -106,3 +106,15 @@
             margin: 3px 0;
             transition: 0.3s;
         }
+        /* Page Content */
+        .page {
+            display: none;
+            min-height: 100vh;
+            padding-top: 80px;
+        }
+
+        .page.active {
+            display: block;
+        }
+
+        
