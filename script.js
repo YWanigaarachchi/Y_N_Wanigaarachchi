@@ -127,6 +127,7 @@
         document.addEventListener('DOMContentLoaded', () => {
             new PortfolioSite();
         });
+        
                 // Skills Preview Hover Effect
         const skillsPreview = document.getElementById('skillsPreview');
         const skills = ['HTML5', 'CSS3', 'JavaScript', 'React', 'Node.js', 'Python', 'MongoDB', 'Express'];
