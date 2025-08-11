@@ -1,4 +1,4 @@
-        class PortfolioSite {
+ class PortfolioSite {
             constructor() {
                 this.init();
             }
@@ -22,7 +22,6 @@
                         this.showPage(targetId, navLinks, pages, link);
                     });
                 });
-
                 // Handle CTA button
                 const ctaButton = document.querySelector('.cta-button');
                 if (ctaButton) {
@@ -32,7 +31,6 @@
                     });
                 }
             }
-
             showPage(targetId, navLinks, pages, activeLink) {
                 // Show loading
                 const loading = document.getElementById('loading');
@@ -81,7 +79,6 @@
             handleFormSubmit(form) {
                 const formData = new FormData(form);
                 const data = Object.fromEntries(formData);
-                
                 // Show success message
                 this.showNotification('Message sent successfully! I\'ll get back to you soon.', 'success');
                 form.reset();
