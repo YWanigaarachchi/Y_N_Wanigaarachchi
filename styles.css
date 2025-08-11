@@ -18,9 +18,13 @@
 
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-            line-height: 1.6;
+            line-height: 1.7;
             color: var(--text-dark);
             overflow-x: hidden;
+            background: var(--bg-light);
+            transition: background 0.3s ease;
+            padding: 0;
+            margin: 0;
         }
 
         .container {
@@ -195,13 +199,13 @@
             position: fixed;
             bottom: 30px;
             right: 30px;
-            background: rgba(0, 0, 0, 0.764);
+            background: rgba(182, 124, 124, 0.311);
             backdrop-filter: blur(10px);
             -webkit-backdrop-filter: blur(10px);
             border: 1px solid rgba(8, 253, 4, 0.837);
             border-radius: 15px;
             padding: 20px;
-            color: rgb(188, 171, 171);
+            color: rgba(0, 0, 0, 0.84);
             font-size: 14px;
             z-index: 100;
             transition: all 0.3s ease;
@@ -209,8 +213,8 @@
         }
 
         .skills-preview:hover {
-            background: rgba(32, 5, 129, 0.877);
-            transform: scale(1.05);
+            background: rgba(6, 109, 33, 0.188);
+            transform: scale(1.12);
         }
 
         .skill-tags {
@@ -532,10 +536,10 @@
         }
 
         .social-links a {
-            color: white;
-            font-size: 1.5rem;
+            color: rgb(0, 11, 11);
+            font-size: 2rem;
             margin: 0 1rem;
-            transition: color 0.3s ease;
+            transition: color 0.5s ease;
         }
 
         .social-links a:hover {
