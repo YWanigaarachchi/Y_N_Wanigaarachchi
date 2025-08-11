@@ -127,3 +127,17 @@
         document.addEventListener('DOMContentLoaded', () => {
             new PortfolioSite();
         });
+                // Skills Preview Hover Effect
+        const skillsPreview = document.getElementById('skillsPreview');
+        const skills = ['HTML5', 'CSS3', 'JavaScript', 'React', 'Node.js', 'Python', 'MongoDB', 'Express'];
+        
+        skillsPreview.addEventListener('mouseenter', () => {
+            const skillTags = document.querySelector('.skill-tags');
+            skillTags.innerHTML = '';
+            skills.forEach(skill => {
+                const tag = document.createElement('span');
+                tag.className = 'skill-tag';
+                tag.textContent = skill;
+                skillTags.appendChild(tag);
+            });
+        });
