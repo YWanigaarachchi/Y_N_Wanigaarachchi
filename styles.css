@@ -435,6 +435,7 @@
         .service-card p {
             color: var(--text-light);
         }
+        
         /* Contact Page */
         .contact-section {
             padding: 6rem 0;
@@ -523,6 +524,7 @@
         .submit-btn:hover {
             background: var(--secondary-color);
         }
+
         /* Footer */
         footer {
             background: var(--text-dark);
@@ -545,6 +547,7 @@
         .social-links a:hover {
             color: var(--accent-color);
         }
+
         /* Responsive Design */
         @media (max-width: 768px) {
             .nav-links {
@@ -578,6 +581,7 @@
                 grid-template-columns: repeat(2, 1fr);
             }
         }
+
         /* Loading Animation */
         .loading {
             display: none;
